@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="390dp"
+    android:layout_height="844dp"
+    android:background="@color/Blue"
+    android:orientation="vertical"
+    tools:context=".Sign_in4">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="240dp"
+        android:layout_height="89dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="123dp"
+        android:text="Who is going to use this device?"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/abel_regular"/>
+
+    <Button
+        android:id="@+id/parent"
+        android:layout_width="300dp"
+        android:layout_height="165dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="337dp"
+        android:background="@drawable/bg_button_white"
+        android:drawableEnd="@drawable/chevron"
+        android:text="Parents"
+        android:textSize="30dp"
+android:paddingStart="1dp"
+        android:textAllCaps="false"
+        android:textColor="@color/BlueText"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="@color/white"
+        android:fontFamily="@font/poppins_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/standing_6"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="295dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/child"
+        android:layout_width="297dp"
+        android:layout_height="173dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="527dp"
+        android:background="@drawable/bg_button_white"
+        android:drawableEnd="@drawable/chevron"
+        android:text="Child"
+        android:textSize="30dp"
+        android:paddingStart="1dp"
+        android:textAllCaps="false"
+        android:textColor="@color/BlueText"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="@color/white"
+        android:fontFamily="@font/poppins_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <ImageView
+        android:layout_width="211.96dp"
+        android:layout_height="283dp"
+        android:src="@drawable/group"
+        android:layout_marginLeft="199dp"
+        android:layout_marginTop="488dp"
+
+        />
+
+
+
+
+</RelativeLayout>

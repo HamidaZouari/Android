@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="390dp"
+    android:layout_height="844dp"
+    android:background="@color/Blue"
+    android:orientation="vertical"
+    tools:context=".AddDevice">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="264dp"
+        android:layout_height="89dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="117dp"
+        android:text="Please add your child’s devices"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/abel_regular"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="346dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="194dp"
+        android:text="The information from your child’s device will help us to assess their mental health, duration of sleep, places visited, used applications  etc.
+It also gives you the ability to block or allow installed applications"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_regular"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="346dp"
+        android:layout_height="155dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="324dp"
+        android:text="Please follow the following steps:
+1.Bring your child’s mobile phone
+2.Scan this QR code with your child’s device camera\n
+3.You will be redirected to the 4IN shield application download page\n
+4.Once the application is installed, click Next "
+        android:textSize="18dp"
+        android:lineSpacingExtra="10sp"
+        android:lineHeight="20sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_regular"/>
+
+    <ImageView
+        android:layout_width="206dp"
+        android:layout_height="169dp"
+        android:src="@drawable/frame"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="503dp"
+
+        />
+    <Button
+        android:id="@+id/skip"
+        android:layout_width="105dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="701dp"
+        android:layout_marginLeft="67dp"
+        android:background="@drawable/bg_button_white"
+        android:text="Skip "
+
+
+        android:textColor="@color/BlueText"
+        ></Button>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="105dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="701dp"
+        android:layout_marginLeft="217dp"
+        android:background="@drawable/bg_button_white"
+        android:text="Next "
+        android:drawableEnd="@drawable/chevron"
+
+        android:textColor="@color/BlueText"
+        ></Button>
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="390dp"
+    android:layout_height="844dp"
+    android:background="@color/Blue"
+    android:orientation="vertical"
+    tools:context=".Bienvenu">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="264dp"
+        android:layout_height="89dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="135dp"
+        android:text="Welcom to 4IN Shield"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/abel_regular"/>
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/chatting" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="105dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="695dp"
+        android:layout_marginLeft="140dp"
+        android:background="@drawable/bg_button_white"
+        android:text="Start "
+        android:drawableEnd="@drawable/chevron"
+
+        android:textColor="@color/BlueText"
+        ></Button>
+
+</RelativeLayout>

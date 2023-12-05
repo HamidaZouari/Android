@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboard"
+        android:layout_width="92dp"
+        android:layout_height="35dp"
+
+        android:icon="@drawable/square"
+
+        android:title="Dashboard" />
+    <item
+        android:id="@+id/phone"
+        android:icon="@drawable/square"
+        android:layout_width="92dp"
+        android:layout_height="35dp"
+
+        android:title="PhoneUsage" />
+    <item
+        android:id="@+id/social"
+
+        android:icon="@drawable/square"
+
+        android:layout_width="92dp"
+        android:layout_height="35dp"
+        android:title="Social Media" />
+    <item
+        android:id="@+id/alerts"
+
+        android:icon="@drawable/square"
+
+        android:layout_width="92dp"
+        android:layout_height="35dp"
+        android:title="Alerts" />
+</menu>

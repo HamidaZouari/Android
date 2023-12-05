@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">mobile Android native</string>
+
+    <string name="Congrats">
+        <![CDATA[
+            <![CDATA[
+        <span>
+            <font size="16">This is normal size text. </font>
+            <font size="24">This is larger text. </font>
+            <font size="12">This is smaller text.</font>
+        </span>
+        ]]>
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

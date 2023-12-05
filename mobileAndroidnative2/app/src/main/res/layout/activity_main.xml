@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="390dp"
+    android:layout_height="844dp"
+    android:background="@color/Blue"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="57dp"
+        android:src="@drawable/microdoftteams" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="240dp"
+        android:layout_height="89dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="205dp"
+        android:text="Welcome to 4In Shield!\n
+Sign in to continue"
+        android:textColor="@color/white"
+        android:fontFamily="@font/abel_regular"/>
+
+    <Button
+        android:id="@+id/btn_facebook"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="335dp"
+        android:background="@drawable/bg_button_white"
+        android:drawableEnd="@drawable/chevron"
+        android:text="Sign in with facebook"
+        android:textAllCaps="false"
+        android:textColor="@color/BlueText"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:drawableStart="@drawable/facebook"
+
+        app:layout_constraintStart_toStartOf="parent"></Button>
+
+    <Button
+        android:id="@+id/btn_google"
+
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="411dp"
+        android:background="@drawable/bg_button_white"
+        android:drawableEnd="@drawable/chevron"
+        android:text="Sign in with Gmail"
+        android:textAllCaps="false"
+android:drawableStart="@drawable/google"
+
+        android:textColor="@color/BlueText"
+
+
+></Button>
+
+    <Button
+        android:id="@+id/btn_mail"
+
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:drawableStart="@drawable/mail"
+
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="487dp"
+        android:background="@drawable/bg_button_white"
+        android:drawableEnd="@drawable/chevron"
+        android:text="Sign in with Email"
+        android:textAllCaps="false"
+
+
+        android:textColor="@color/BlueText"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="@color/white"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></Button>
+
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="207dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="578dp"
+        android:clickable="true"
+        android:fontFamily="@font/abel_regular"
+
+        android:onClick="onTextViewClick"
+        android:text="No account? Sign up"
+        android:textColor="@color/white" />
+    <View
+        android:layout_width="140dp"
+        android:layout_marginTop="605dp"
+        android:layout_height="1dp"
+        android:background="@color/white"
+        android:layout_marginLeft="54dp"/>
+</RelativeLayout>

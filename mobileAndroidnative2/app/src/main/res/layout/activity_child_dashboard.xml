@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="390dp"
+    android:layout_height="844dp"
+    android:background="@color/Blue"
+    android:orientation="vertical"
+    tools:context=".ChildDashboard">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="390dp"
+        android:layout_height="104dp"
+        android:background="@color/Blue">
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_height="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            app:title="Child first name"
+
+            app:titleCentered="true"
+            app:titleTextColor="@color/white"
+            app:navigationIcon="@drawable/menu"
+            app:menu="@menu/app_bar_menu"
+
+        /></com.google.android.material.appbar.AppBarLayout>
+<FrameLayout
+    android:id="@+id/frameLayout"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom"
+
+        android:layout_width="wrap_content"
+android:background="@color/white59"
+        app:itemTextColor="@color/BlueText"
+        app:itemIconTint="@color/BlueText"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_bar" />
+</LinearLayout>

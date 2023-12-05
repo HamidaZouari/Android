@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="390dp"
+    android:layout_height="844dp"
+    android:background="@color/Blue"
+    android:orientation="vertical"
+    tools:context=".Congrats2">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="302dp"
+        android:layout_height="144dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="157dp"
+        android:textAlignment="center"
+android:text="Thank you for your confidence in us."
+        android:textSize="22dp"
+        android:lineHeight="35sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_bold"/>
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="247dp"
+        android:layout_height="252dp"
+
+        android:layout_marginLeft="71dp"
+        android:layout_marginTop="319dp"
+        android:src="@drawable/microdoftteams" />
+
+    <Button
+        android:id="@+id/goDash"
+        android:layout_width="152dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="689dp"
+        android:layout_marginLeft="119dp"
+        android:fontFamily="@font/abel_regular"
+        android:background="@drawable/bg_button_white"
+        android:text="Go to dashboard"
+        android:drawableEnd="@drawable/chevron"
+android:textSize="13dp"
+android:lineHeight="20sp"        android:textColor="@color/BlueText"
+        ></Button>
+
+</RelativeLayout>

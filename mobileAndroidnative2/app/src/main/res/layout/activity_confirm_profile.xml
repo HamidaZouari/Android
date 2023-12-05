@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="390dp"
+    android:layout_height="844dp"
+    android:background="@color/Blue"
+    android:orientation="vertical"
+    tools:context=".ConfirmProfile">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="343dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="166dp"
+        android:textAlignment="center"
+        android:text="Your child’s profile information has been successfully added"
+        android:textSize="30dp"
+        android:lineHeight="35sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/abel_regular"/>
+
+
+    <ImageView
+        android:layout_width="277dp"
+        android:layout_height="335dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="59dp"
+
+        android:layout_marginTop="298dp"
+        android:src="@drawable/confirmprofile" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="149dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="664dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/bg_button_white"
+        android:text="Add new profile"
+
+
+        android:textColor="@color/BlueText"
+        ></Button>
+    <Button
+        android:id="@+id/cont"
+        android:layout_width="138dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="664dp"
+        android:layout_marginLeft="222dp"
+        android:background="@drawable/bg_button_white"
+        android:text="Continue"
+        android:drawableEnd="@drawable/chevron"
+
+        android:textColor="@color/BlueText"
+        ></Button>
+    <Button
+    android:id="@+id/modify"
+    android:layout_width="226dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="729dp"
+    android:layout_marginLeft="89dp"
+    android:background="@drawable/bg_button_white"
+    android:text="Modify profile information"
+android:textSize="18dp"
+        android:fontFamily="@font/abel_regular"
+        android:lineHeight="20sp"
+    android:textColor="@color/BlueText"
+    ></Button>
+</RelativeLayout>

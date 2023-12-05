@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+    android:background="@color/Blue"
+    android:layout_width="390dp"
+    android:layout_height="844dp"
+    tools:context=".Sign_in">
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="57dp"
+        android:src="@drawable/microdoftteams" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="240dp"
+        android:layout_height="89dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="205dp"
+        android:text="Welcome to 4In Shield!\n
+Sign in to continue"
+        android:textColor="@color/white"
+        android:fontFamily="@font/abel_regular"/>
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginTop="348dp"
+        android:inputType="text"
+        android:text="Username"
+        android:textColor="#3C000000"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="40dp"
+
+        android:background="@drawable/bg_button_white"/>
+
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginTop="422dp"
+        android:inputType="text"
+        android:text="Password"
+        android:layout_marginLeft="40dp"
+
+        android:textColor="#3C000000"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+
+        android:background="@drawable/bg_button_white"/>
+
+<Button
+    android:layout_width="111dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="535dp"
+    android:layout_marginLeft="141dp"
+    android:background="@drawable/bg_button_white"
+    android:text="Sign in "
+    android:drawableEnd="@drawable/chevron"
+
+    android:textColor="@color/BlueText"
+
+    ></Button>
+
+    <TextView
+        android:id="@+id/frgtpwd"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="612dp"
+        android:clickable="true"
+        android:fontFamily="@font/abel_regular"
+        android:onClick="onTextViewClick"
+        android:text="Forgot password?"
+        android:textSize="14sp"
+        android:textColor="@color/white" />
+    <View
+        android:layout_width="96dp"
+        android:layout_marginTop="633dp"
+
+        android:layout_height="2dp"
+        android:background="@color/white"
+        android:layout_marginLeft="45dp"/>
+</RelativeLayout>

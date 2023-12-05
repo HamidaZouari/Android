@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blue"
+    tools:context=".DashboardFragment">
+
+    <!-- Your fragment layout with ScrollView -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Other views or layouts inside the ScrollView -->
+            <!-- For example, TextViews, ImageViews, etc. -->
+
+
+            <!-- Add more views as needed -->
+            <ImageView
+                android:id="@+id/iconImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="46dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/avatar" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="194dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="46dp"
+                android:layout_marginTop="30dp"
+android:text="First name Last name"
+                android:lineHeight="30sp"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_regular"/>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="194dp"
+                android:letterSpacing="0.1"
+                android:layout_height="30dp"
+                android:layout_marginLeft="46dp"
+android:text="Age"                android:lineHeight="10sp"
+                android:textSize="10dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_regular"/>
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Row -->
+                <TableRow
+                    android:layout_marginLeft="70dp"
+                    >
+                    <Button
+                        android:id="@+id/month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:text="Month "
+                        android:fontFamily="@font/poppins_semibold"
+
+
+                        android:textColor="@color/white"
+                        ></Button>
+                    <Button
+                        android:id="@+id/week"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:text="Week "
+                        android:fontFamily="@font/poppins_semibold"
+
+
+                        android:textColor="@color/white"
+                        ></Button>
+
+                    <Button
+                        android:id="@+id/day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_button_white"
+                        android:text="Day "
+                        android:fontFamily="@font/poppins_semibold"
+
+                        android:textColor="@color/BlueText"
+                        ></Button>
+                </TableRow>
+
+
+
+            </TableLayout>
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <!-- First Row -->
+                <TableRow
+                    android:layout_marginBottom="10dp"
+                    >
+                    <TextView
+                        android:id="@+id/danger"
+                        android:layout_width="148dp"
+                        android:layout_height="89dp"
+                        android:background="@drawable/bg_button_white"
+                        android:text="Danger level\n high "
+                        android:fontFamily="@font/poppins_regular"
+                        android:layout_marginLeft="40dp"
+                        android:textAlignment="center"
+
+                        android:textColor="@color/black"
+                        ></TextView>
+                    <TextView
+                        android:id="@+id/lastnight"
+                        android:layout_width="148dp"
+                        android:layout_height="89dp"
+
+                        android:background="@drawable/bg_button_white"
+                        android:text="Last night Sleep duration\8h "
+                        android:layout_marginLeft="40dp"
+
+android:textAlignment="center"
+                        android:textColor="@color/black"
+                        ></TextView>
+
+
+                </TableRow>
+<TableRow>
+    <TextView
+        android:id="@+id/device"
+        android:layout_width="148dp"
+        android:layout_height="89dp"
+        android:background="@drawable/bg_button_white"
+        android:text="Device usage\n 4h "
+        android:fontFamily="@font/poppins_regular"
+        android:layout_marginLeft="40dp"
+        android:textAlignment="center"
+
+        android:textColor="@color/black"
+        ></TextView>
+    <TextView
+        android:id="@+id/phonecall"
+        android:layout_width="148dp"
+        android:layout_height="89dp"
+
+        android:background="@drawable/bg_button_white"
+        android:text="Phone call duration\4h "
+        android:layout_marginLeft="40dp"
+
+
+        android:textColor="@color/black"
+        ></TextView>
+</TableRow>
+
+
+            </TableLayout>
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+    <TableRow android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/lastalert"
+            android:layout_width="340dp"
+            android:layout_height="204dp"
+
+            android:background="@drawable/bg_button_white"
+            android:text="Phone call duration\4h "
+            android:layout_marginLeft="40dp"
+
+
+            android:textColor="@color/black"
+
+            >
+
+            
+        </TextView>
+    </TableRow>
+</TableLayout>
+<ImageView
+    android:layout_width="345.3dp"
+    android:layout_height="259dp"
+    android:src="@drawable/background"
+android:layout_gravity="center" ></ImageView>
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
